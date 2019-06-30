@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    font-family: candara;
+    
+    box-sizing:border-box;
+}
+.container-fluid{
+    position: relative;
+    height: 100%;
+}
+.left{
+    position: relative;
+    background-image: url(https://img.theculturetrip.com/1024x574/smart/wp-content/uploads/2017/01/6856670078_724fb6b886_k.jpg);
+    height:100vh;
+    background-position:center ;
+    background-size:cover;
+    
+    
+}
+.right{
+    margin: 20px 40px;
+   
+}
+.content{
+    margin: 20px 0 0 0;
+     width: 100%;
+     text-align: center;
+      
+}
+
+ion-icon {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 0 10px;
+}
+ion-icon:hover, a:hover{
+    color:#E34E23;
+}
+h1{
+    color:#E34E23;
+    font-size: 3.2rem;
+    font-weight: bold; 
+}
+h3{
+    color:#E34E23;
+    border-radius: 50px;
+    width: 100%;
+    margin: 20px 0 10px 0;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.img-overlay{
+    position: absolute;
+    background: rgba(255, 68, 0, 0.315);
+    height:100%;
+    width: 100%;
+    z-index: 999;
+    top:0;
+    left:0;
+}
+footer{
+    position: relative;
+    padding: 10px ;
+}
